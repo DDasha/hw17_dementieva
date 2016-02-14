@@ -1,74 +1,52 @@
-/*==================
-    header
-====================*/
-.navbar {
-	color: white;
-	font-size: 18px;
-	line-height: 16px;
-	border: none;
-    margin-bottom: 0;
-    background-color: rgba(29, 22, 16, 0);
-
-}
+.header {
+  position: relative;
+  padding: 20px 0;
+  background: url("../img/background.jpg") no-repeat center center; }
 
 
-.navbar-default .navbar-nav {
-  padding: 15px 50px;
-  color: #fff;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #b78e03;
-}
-.navbar-default .navbar-nav > li > a {
-    padding: 10px 15px;
-    color: #fff;
-	font-size: 18px;
-	line-height: 16px;
-}
-button.navbar-toggle {
-  background-color: rgba(29, 22, 16, 0.5);
-  color: #fff;
-}
-.shop {
-     float: right;
-     margin: 15px 5px;
-}
+.hamburger {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  z-index: 9;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  background: transparent;
+  font-size: 2em;
+  color: #05e7e6;
+  cursor: pointer;
+  transform: translate(0, -50%); }
 
-header {
-    width: 100%;
-    min-width: 320px;
-    background-color: rgba(29, 22, 16, 0.5);
-    position: absolute;
-    
-    .container {
-        padding-bottom: 0;
-    }
-}
-.dr-menu {
+.menu {
   display: none;
   position: absolute;
-  width: 600px;
-  top: 66px;
+  top: 100%;
   left: 0;
-  color: #fff;
-  background-color: rgba(29, 22, 16, 0.5);
-  padding: 20px 30px 27px;}
+  z-index: 1;
+  width: 100%;
+  font-size: 0.8em;
+  font-weight: bold;
+  background: url("../img/background.jpg") no-repeat center center;
+  text-align: center; }
 
-.dr-menu  li {
-  float: left;
-  width: 50%;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #b78e03;
-  }
-}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
 
-.nav.navbar-nav li:hover .dr-menu {
+.menu li {
   display: block;
-}
+  border-bottom: 1px solid #05e7e6; }
+  .menu li:first-child {
+    border-top: 1px solid #05e7e6; }
+  .menu li:hover {
+    background: #05e7e6; }
+
+.menu ul li a {
+  display: block;
+  padding: 10px;
+  color: #05e7e6;
+  text-decoration: none; }
+  .menu ul li a:hover {
+    color: #000; }

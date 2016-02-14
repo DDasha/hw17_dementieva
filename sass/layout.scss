@@ -1,236 +1,210 @@
-/*==================
-    main page
-====================*/
-.main {
-    
-    h1 {
-  		color: #fff;
-        font-size: 36px;
-		font-weight: 300;
-	}
 
-    .man {
-        float: right;
-        padding-top: 75px;
-        margin-right: 100px;
-    }
-    
-    .description {
-        p {
-            color: #7c8ca0;
-            font-size: 18px;
-            font-weight: 300;
-            line-height: 30px;
-        }
-        background: rgba(35, 188, 255, 0.71);
-        width: 50%;
-        padding: 10px;
-        margin-top: 190px;
-        margin-left: 160px;
-    }
-}
+.main h1 {
+  max-width: 620px;
+  margin: 60px auto 40px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: black;
+  text-shadow: 2px 0 0 #fff831, -2px 0 0 #fff831, 0px -2px 0 #fff831, 0 2px 0 #fff831, -2px -2px 0 #fff831, 2px -2px 0 #fff831, 2px 2px 0 #fff831, -2px 2px 0 #fff831;
+  letter-spacing: 7px;
+  text-transform: uppercase; }
 
-/*==================
-    news
-====================*/
-.news {
-  background: url("../images/layer-65-copy.png");
-    p {
-        font-size: 18px;
-        font-weight: 300;
-    }
-    a {
-        padding: 10px 16px 10px 0;
-        font-style: italic;
-        background: url('../images/blue-arrow.png') no-repeat center right;
-    }
+.main p {
+  font-size: 1.5rem;
+  font-weight: 400; }
 
-}
-/*==================
-   recommend
-===================*/
+.line p {
+  font-size: 1.313rem; }
 
-.recommend {
-    .menu {
-        padding: 0 0 50px;
+.btn {
+  color: #fff;
+  font-weight: 700; }
 
-        li {
-            display: inline-block;
-            padding-right: 50px;
-        }
-        a {
-            text-decoration: none;
-            color: #646464;
-            font-size: 18px;
-            font-weight: 700;
-        }
-        a:hover {
-            color: #b78e03;
-        }
-    }
-    a.button {
-        background-color: #dfad00;
-        color: #fff;
-        border-radius: 5px;
-        font-size: 16px;
-        font-weight: 700;
-        padding: 10px 40px 10px;
-        margin-bottom: 70px;
-        float: right;
-        box-shadow: 0 2px 0 #ab8500;
-    }
-    a.button:hover {
-        background-color: #ab8500;
-        color: #fff;
-    }
-}
-
-/*==================
-    tv
-====================*/
-.tv {
-
-  background: url("../images/sub-bg.jpg") top no-repeat;
-    h2 {
-        color: #fff;
-        margin-top: 50px;
-    }
-    .main-video {
-        width: 40%;
-        border: 3px #fff;
-    }
-    .small-video {
-        margin: 3px;
-        float: left;
-        video {
-            width: 260px;
-            border: 3px #fff;
-        }
-    }
-    .video-news {
-        h3 {
-            color: #fff;
-        }
-        a {
-            padding: 10px 16px;
-            color: #fff;
-            background: url('../images/yellow-arrow.png') no-repeat center left;
-        }
-        padding-bottom: 50px;
-    }
-}
-
-/*==================
-    goal
-====================*/
-.goal {
-    .big-man {
-        float: right;
-        margin-left: 50px;
-    }
-    .description {
-        padding: 50px 0;
-        background: url("../images/quotes.png") top no-repeat;
-
-        h2 {
-            margin-bottom: 50px;
-            width: 50%;
-        }
-        /*h2::after {
-            content: '"';
-            font-size: 120px;
-            color: #8c8c8c;
-        }*/
-    }
-    .details {
-        padding: 10px 16px 10px 0;
-        background: url('../images/blue-arrow.png') no-repeat center right;
-    }
-    .social {
-        margin-top: 30px;
-    }
-}
-
-/*==================
-    slider
-====================
-.flexslider {
-    border: none;
-.flex-caption {
-  width: 40%;
-  padding: 2%;
-  color: #7c8ca0;
-  font-size: 24px;
-  font-style: italic;
-  display: block;
-  margin: 0 auto;
-}
-
-.flex-caption2 {
-  width: 40%;
-  padding: 2%;
-  color: #7c8ca0;
-  font-size: 18px;
-  display: block;
-  margin: 0 auto;
+.value {
+  font-size: 2.25rem;
+  color: #e53663; }
   
-  a {
-      text-decoration: underline;
-      color: #7c8ca0;
-  }
-}
+  
+  @media screen and (min-width: 768px) {
+  html {
+    font-size: 14px; } }
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px; }
+  .home h2 {
+    font-size: 6.25rem; } }
 
 
-margin-top: 100px;
-margin-bottom: 100px;
 
-.slides {
-    background: rgba(44, 153, 255, 0.2);
-    text-align: center;
-}
-}*/
-/*==================
-    partners
-====================*/
-.partners {
-    background-color: #edeff1;
-    
-    .partners-description {
-        .text-bold {
-            font-weight: 700;
-        }
-        p {
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 30px;
-        }
-    }
-    .city {
-        color: #323232;
-        padding: 10px 16px;
-        background: url('../images/map.png') no-repeat left;
-    }
-    .small-icon {
-        width: 20px;
-    }
-    .social {
-        margin: 15px 0;
-    }
-}
-/*==================
-    join
-====================*/
-.join {
-    background: url("../images/sub-bg2.jpg") top no-repeat;
-    padding-bottom: 50px;
-    h2 {
-        color: #fff;
-    }
-    a {
-        padding: 10px 16px 10px 0;
-        color: #fff;
-        background: url('../images/arrow.png') no-repeat right;
-        font-style: italic;
-    }
+.circle {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 50%;
+  background: url("../img/arr-down.png") no-repeat center center;
+  background-size: 60px;
+  outline: none; }
+  .circle:hover {
+    background: #038383 url("../img/arr-down.png") no-repeat center center;
+    background-size: 60px; }
 
-}
+
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border: 2px solid #e53663;
+  border-radius: 20px;
+  background: #e53663;
+  outline: none;
+  text-decoration: none; }
+  .btn:hover {
+    background: transparent;
+    color: #e53663; }
+
+.btn-another {
+  border: 2px solid #05e7e6;
+  background: transparent;
+  color: #05e7e6; }
+  .btn-another:hover {
+    background: #05e7e6;
+    color: #000; }
+
+
+
+.description {
+  padding: 70px 0;
+  text-align: center; }
+
+.description p {
+  margin: 20px 0 40px; }
+
+.frame {
+  max-width: 1280px;
+  margin: 0 15px;
+  border: 2px solid #05e7e6; }
+
+.text {
+  position: relative;
+  top: -60px;
+  max-width: 1060px;
+  margin: 0 auto;
+  background: url("../img/background.jpg") no-repeat center center; }
+
+.button {
+  position: relative;
+  bottom: -30px;
+  max-width: 320px;
+  margin: 0 auto;
+  background: url("../img/background.jpg") no-repeat center center; }
+
+.articles {
+  padding: 40px 0;
+  text-align: center; }
+
+video {
+  width: 100%; }
+
+.article-list {
+  margin: 50px 0;
+  text-align: left; }
+
+article {
+  margin-bottom: 30px;
+  text-align: center; }
+  article:hover h3 {
+    color: #e53663; }
+
+.counter a {
+  display: inline-block;
+  margin-right: 2px;
+  padding: 5px 10px;
+  background: #2e2e2e;
+  color: #fff;
+  text-decoration: none; }
+  .counter a:hover {
+    color: #e53663; }
+
+.counter .active {
+  color: #e53663; }
+
+.counter .arrow {
+  background: transparent url("../img/arrow.png") no-repeat center center;
+  background-size: 10px 15px;
+  color: transparent; }
+  .counter .arrow:hover {
+    color: transparent; }
+
+.loader {
+  padding: 50px 0;
+  text-align: center; }
+
+.item {
+  width: 250px;
+  height: 250px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.jedi {
+  background: url("../img/jedi.png") no-repeat center center;
+  background-size: 250px 250px; }
+
+.droids {
+  background: url("../img/droids.png") no-repeat center center;
+  background-size: 250px 250px; }
+
+.battles {
+  background: url("../img/battles.png") no-repeat center center;
+  background-size: 250px 250px; }
+
+.content p {
+  display: block;
+  text-align: center; }
+
+
+.impression {
+  padding: 50px 0;
+  text-align: center; }
+
+.feedback {
+  margin: 50px 0; }
+
+.feedback {
+  max-width: 350px;
+  margin: 0 auto 30px;
+  text-align: left; }
+  .feedback::after {
+    content: '';
+    display: block;
+    clear: both; }
+
+                                        .photo {
+                                          float: left;
+                                          width: 70px;
+                                          margin-right: 20px; }
+                                          .photo img {
+                                            width: 100%; }
+                                        
+                                        blockquote {
+                                          margin: 0 0 15px 0;
+                                          color: #fff;
+                                          font-style: italic; }
+                                        
+                                        .name {
+                                          color: #05e7e6; }
+                                        
+                                        .name,
+                                        .education {
+                                          text-transform: uppercase; }
+                                        
+                                        .education {
+                                          font-weight: 400; }
+                                          
+                                          

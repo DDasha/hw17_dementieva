@@ -30,9 +30,6 @@ template {
 /*=================================================================================================================
     YOUR STYLE here
   ================================================================================================================= */
-body { 
-  font-family: $text-font;
-}
 .wrapper {
   overflow: hidden;
 }
@@ -51,29 +48,40 @@ body {
   ================================================================================================================= */
 
 
-p {
-  color: #323232;
-}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.m-page {
+  background: url("../images/background.jpg") no-repeat center center;
+  background-size: cover; }
+
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px; }
 
 h2 {
-  color: $heading-color;
-  font-size: 36px;
-  font-weight: 100;
-  line-height: 48px;
-}
-
-ul {
-  list-style-type: none;
-}
-a, a:hover {
-  text-decoration: none;
-}
-
-.price {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #1b6d85;
-}
-.text-bold {
-  font-weight: 700;
-}
+  color: #05e7e6; }
+
+h3,
+a,
+blockquote {
+  font-size: 1.125rem;
+  color: #05e7e6; }
+
+p {
+  color: #fff;
+  font-weight: 700; }
+
+h3 a {
+  text-transform: uppercase;
+  color: #05e7e6;
+  text-decoration: none; }
+  h3 a:hover {
+    color: #e53663; }
+
+a {
+  font-weight: 700; }
