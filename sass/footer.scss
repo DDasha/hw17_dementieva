@@ -1,0 +1,26 @@
+/*==================
+    footer
+====================*/
+
+footer {
+    .description {
+        p {
+            color: #969696;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 16px;
+        }
+    }
+    .made-by {
+        p {
+            font-size: 12px;
+            font-weight: 400;
+            color: white;
+        }
+    
+        a {
+            font-weight: 700;
+            color: white;
+        }
+    }
+}

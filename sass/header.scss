@@ -1,0 +1,74 @@
+/*==================
+    header
+====================*/
+.navbar {
+	color: white;
+	font-size: 18px;
+	line-height: 16px;
+	border: none;
+    margin-bottom: 0;
+    background-color: rgba(29, 22, 16, 0);
+
+}
+
+
+.navbar-default .navbar-nav {
+  padding: 15px 50px;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #b78e03;
+}
+.navbar-default .navbar-nav > li > a {
+    padding: 10px 15px;
+    color: #fff;
+	font-size: 18px;
+	line-height: 16px;
+}
+button.navbar-toggle {
+  background-color: rgba(29, 22, 16, 0.5);
+  color: #fff;
+}
+.shop {
+     float: right;
+     margin: 15px 5px;
+}
+
+header {
+    width: 100%;
+    min-width: 320px;
+    background-color: rgba(29, 22, 16, 0.5);
+    position: absolute;
+    
+    .container {
+        padding-bottom: 0;
+    }
+}
+.dr-menu {
+  display: none;
+  position: absolute;
+  width: 600px;
+  top: 66px;
+  left: 0;
+  color: #fff;
+  background-color: rgba(29, 22, 16, 0.5);
+  padding: 20px 30px 27px;}
+
+.dr-menu  li {
+  float: left;
+  width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #b78e03;
+  }
+}
+
+.nav.navbar-nav li:hover .dr-menu {
+  display: block;
+}

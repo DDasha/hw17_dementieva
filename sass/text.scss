@@ -1,0 +1,38 @@
+.fourth-main {
+	padding: 50px 0;
+	h1 {
+		color: #646464;
+		font-family: Roboto;
+		font-size: 36px;
+		font-weight: 100;
+		line-height: 36px;
+		margin-top: 100px;
+	}
+	p {
+		color: #323232;
+		font-family: Roboto;
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 18px;
+	}
+	.video {
+	
+		video {
+			display: block;
+    		margin: 50px auto 50px;
+    		width: 460px;
+    		height: 340px;
+    		position: relative;
+    
+    		a {
+        		display: block;
+        		background: white;
+        		border-radius: 50px;
+        		color: #0149a1;
+        		font-size: 18px;
+        		font-weight: 700;
+        		line-height: 48px;
+    		}
+		}
+	}
+}
